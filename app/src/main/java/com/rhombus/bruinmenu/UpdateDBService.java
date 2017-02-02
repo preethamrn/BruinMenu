@@ -186,7 +186,7 @@ public class UpdateDBService extends Service {
 
                 } catch (Exception e) {
                     //Do nothing if service fails.
-                    //return "Unable to retrieve web page. http://menu.ha.ucla.edu/foodpro/default.asp may be down.";
+                    //return "Unable to retrieve web page. May be down.";
                 }
 
             }

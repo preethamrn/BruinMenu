@@ -74,7 +74,7 @@ public class RefreshScreenActivity extends Activity
                 try {
                     OkHttpClient client = new OkHttpClient();
 
-                    String url = "http://menu.dining.ucla.edu/Menu";
+                    String url = "http://menu.dining.ucla.edu/Menus";
                     client.setConnectTimeout(15, TimeUnit.SECONDS); // connect timeout
                     client.setReadTimeout(15, TimeUnit.SECONDS);    // socket timeout
                     Request request = new Request.Builder()
