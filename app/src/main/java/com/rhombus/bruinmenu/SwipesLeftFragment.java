@@ -32,13 +32,32 @@ public class SwipesLeftFragment extends Fragment {
     private OnFragmentInteractionListener mListener;
 
     //premiums start from -4 because last 4 swipes (saturday and sunday of finals week) aren't counted.
-    private int p14=-4, p19=-4, r14=0, r19=0;
+    private int p14=-1, p19=-1, r14=-1, r19=-1;
     private String[] quarterEndDates = {
             "12112015",
             "03182016",
             "06102016",
             "12092016",
-            "03242017"
+            "03242017",
+            "06162017",
+            "12152017",
+            "03232018",
+            "06152018",
+            "12142018",
+            "03222019",
+            "06142019",
+            "12132019",
+            "03202020",
+            "06122020",
+            "12182020",
+            "03192021",
+            "06112021",
+            "12102021",
+            "03182022",
+            "06102022",
+            "12092022",
+            "03242023",
+            "06162023"
     };
 
     public static SwipesLeftFragment newInstance() {
@@ -68,10 +87,10 @@ public class SwipesLeftFragment extends Fragment {
         TextView r14Text = (TextView) layout.findViewById(R.id.r14Text);
         TextView p19Text = (TextView) layout.findViewById(R.id.p19Text);
         TextView r19Text = (TextView) layout.findViewById(R.id.r19Text);
-        p14Text.setText(Integer.toString(p14));
-        r14Text.setText(Integer.toString(r14));
-        p19Text.setText(Integer.toString(p19));
-        r19Text.setText(Integer.toString(r19));
+        p14Text.setText(p14 == -1? "N/A" : Integer.toString(p14));
+        r14Text.setText(r14 == -1? "N/A" : Integer.toString(r14));
+        p19Text.setText(p19 == -1? "N/A" : Integer.toString(p19));
+        r19Text.setText(r19 == -1? "N/A" : Integer.toString(r19));
 
         return layout;
     }
@@ -80,6 +99,13 @@ public class SwipesLeftFragment extends Fragment {
         Calendar curr = Calendar.getInstance();
         curr.set(Calendar.MILLISECOND, 0);
         Calendar cal = findQuarter();
+        if(cal == null) return;
+        else {
+            p14=-4;
+            p19=-4;
+            r14=0;
+            r19=0;
+        }
         //go backwards each week
         while(cal.get(Calendar.WEEK_OF_YEAR) != curr.get(Calendar.WEEK_OF_YEAR)) {
             p14+=14;
