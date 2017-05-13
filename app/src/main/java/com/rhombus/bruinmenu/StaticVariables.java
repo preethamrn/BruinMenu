@@ -15,7 +15,7 @@ public final class StaticVariables {
         public static final int BPLATE_BREAKFAST_END = 9*INTERVAL_HOUR;
 
         public static final int COVEL_LUNCH_START = 11*INTERVAL_HOUR;
-        public static final int COVEL_LUNCH_END = 14*INTERVAL_HOUR;
+        public static final int COVEL_LUNCH_END = 15*INTERVAL_HOUR;
         public static final int DENEVE_LUNCH_START = 11*INTERVAL_HOUR;
         public static final int DENEVE_LUNCH_END = 14*INTERVAL_HOUR;
         public static final int FEAST_LUNCH_START = 11*INTERVAL_HOUR;
@@ -38,7 +38,7 @@ public final class StaticVariables {
         public static final int INTERVAL_MINUTE = 60000;
 
         public static final int COVEL_LUNCH_START = 9*INTERVAL_HOUR+30*INTERVAL_MINUTE;
-        public static final int COVEL_LUNCH_END = 14*INTERVAL_HOUR;
+        public static final int COVEL_LUNCH_END = 15*INTERVAL_HOUR;
         public static final int DENEVE_LUNCH_START = 9*INTERVAL_HOUR+30*INTERVAL_MINUTE;
         public static final int DENEVE_LUNCH_END = 14*INTERVAL_HOUR;
         public static final int FEAST_LUNCH_START = 11*INTERVAL_HOUR;

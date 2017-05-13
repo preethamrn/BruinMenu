@@ -125,10 +125,12 @@ public class UpdateDBService extends Service {
                                             mealTimeString.contains("dinner") ? "dinner" : "";
                         } else if (menu.hasClass("menu-block")) {
                             // Get dining hall name
-                            Element hcell = menu.getElementsByClass("col-header").size() > 0 ? menu.getElementsByClass("col-header").get(0) : null;
+                            String hname = menu.getElementsByClass("col-header").size() > 0 ? menu.getElementsByClass("col-header").get(0).text().trim() : "";
+                            String hactivity = menu.getElementsByClass("activity-level-wrapper").size() > 0 ? menu.getElementsByClass("activity-level-wrapper").get(0).text().trim() : "";
                             ContentValues hvalues = new ContentValues();
-                            hvalues.put(MenuDBContract.HallEntry.COLUMN_NAME_ITEM, hcell.text().trim());
+                            hvalues.put(MenuDBContract.HallEntry.COLUMN_NAME_ITEM, hname);
                             hvalues.put(MenuDBContract.HallEntry.COLUMN_NAME_MEALTIME, mealTime);
+                            hvalues.put(MenuDBContract.HallEntry.COLUMN_NAME_ACTIVITY, hactivity);
                             long hallId = db.insert(
                                     MenuDBContract.HallEntry.TABLE_NAME,
                                     null,

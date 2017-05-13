@@ -90,10 +90,11 @@ public class MenuDBHelper extends SQLiteOpenHelper {
             do {
                 String s = c.getString(c.getColumnIndex(MenuDBContract.HallEntry.COLUMN_NAME_ITEM));
                 String m = c.getString(c.getColumnIndex(MenuDBContract.HallEntry.COLUMN_NAME_MEALTIME));
+                String a = c.getString(c.getColumnIndex(MenuDBContract.HallEntry.COLUMN_NAME_ACTIVITY));
                 long id = c.getLong(c.getColumnIndex(MenuDBContract.HallEntry._ID));
 
                 // adding to list
-                returnList.add(new Hall(s, m, id));
+                returnList.add(new Hall(s, m, a, id));
             } while (c.moveToNext());
         }
         c.close();

@@ -7,7 +7,7 @@ import android.provider.BaseColumns;
  */
 public final class MenuDBContract {
 
-    public static final int DATABASE_VERSION = 1;
+    public static final int DATABASE_VERSION = 2;
     public static final String DATABASE_NAME = "menudb.db";
 
     private static final String TEXT_TYPE = " TEXT";
@@ -38,12 +38,14 @@ public final class MenuDBContract {
         public static final String TABLE_NAME = "halls";
         public static final String COLUMN_NAME_ITEM = "hall";
         public static final String COLUMN_NAME_MEALTIME = "mealtime";
+        public static final String COLUMN_NAME_ACTIVITY = "hall_activity";
 
         public static final String CREATE_TABLE = "CREATE TABLE " +
                 TABLE_NAME + "(" +
                 _ID + " INTEGER PRIMARY KEY," +
                 COLUMN_NAME_ITEM + TEXT_TYPE + COMMA_SEP +
-                COLUMN_NAME_MEALTIME + TEXT_TYPE + " )";
+                COLUMN_NAME_MEALTIME + TEXT_TYPE + COMMA_SEP +
+                COLUMN_NAME_ACTIVITY + TEXT_TYPE + " )";
         public static final String DELETE_TABLE = "DROP TABLE IF EXISTS " + TABLE_NAME;
     }
 

@@ -4,14 +4,16 @@ import java.util.Calendar;
 
 public class Hall {
     private String mealTime;
+    private String activity;
     private String item;
     private long id;
     private int startTime = -3600000;
     private int endTime = -3600000;
 
-    public Hall(String n, String mt, long i) {
+    public Hall(String n, String mt, String a, long i) {
         item = n;
         mealTime = mt;
+        activity = a;
         id = i;
         initHallStartTime();
         initHallEndTime();
@@ -24,6 +26,10 @@ public class Hall {
 
     public String getMealTime() {
         return mealTime;
+    }
+
+    public String getActivity() {
+        return activity;
     }
 
     public long getId() {

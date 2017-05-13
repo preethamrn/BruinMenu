@@ -162,6 +162,13 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         lblListHeader.setTypeface(null, Typeface.BOLD);
         lblListHeader.setText(headerTitle);
 
+        /*
+        TextView hallActivity = (TextView) convertView.findViewById(R.id.hallActivity);
+        Hall hall = this._listDataHeader.get(groupPosition);
+        hallActivity.setText(hall.getActivity());
+        */
+
+
         TextView hallHours = (TextView) convertView.findViewById(R.id.hallHours);
         Hall hall = this._listDataHeader.get(groupPosition);
         if(hall.getStartTime() != -3600000 && hall.getEndTime() != -3600000) {
@@ -178,6 +185,8 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         } else {
             hallHours.setVisibility(View.INVISIBLE);
         }
+
+
         return convertView;
     }
 
