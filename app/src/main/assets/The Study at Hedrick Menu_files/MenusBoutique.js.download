@@ -1,4 +1,22 @@
-﻿function SlideChange(swiper) {
+﻿$(document).ready(function () {
+
+    $(window).click(function () {
+        $('.size-drop-wrapper').hide();
+    });
+
+    $('.size-drop-link').click(function (event) {
+        event.stopPropagation();
+        if ($(this).parent().nextAll('.size-drop-wrapper').is(':visible')) {
+            $(this).parent().nextAll('.size-drop-wrapper').hide();
+        } else {
+            $('.size-drop-wrapper').hide();
+            $(this).parent().nextAll('.size-drop-wrapper').show();
+        }
+
+    });
+});
+
+function SlideChange(swiper) {
 
     $('#b' + (swiper.realIndex + 1)).addClass('active', 500).siblings('button.page-nav-button').removeClass('active', 500);
 

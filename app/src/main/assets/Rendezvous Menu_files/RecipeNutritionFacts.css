@@ -18,8 +18,44 @@ div.nfbox
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 5px;
+	position: relative;
 	text-decoration: none;
 	width: 230px;
+}
+
+.nf-content-wrap
+{
+    margin: 0;
+    padding: 0;
+}
+
+.nf-blur
+{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+#nf-overlay
+{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: -3px;
+}
+
+#nf-overlay-loading
+{
+    background-color: rgba(0, 0, 0, .8); 
+    background-image: url('../Images/fancybox-loading.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    height: 44px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64%;
+    vertical-align: middle;
+    width: 44px; 
 }
 
 div.nfbox p
@@ -182,4 +218,16 @@ div.nfdisclaimer
 	margin-bottom: 1px;
 	margin-top: 1px;
 	padding-top: 2px;
+}
+
+div.redirect-info
+{
+    padding: 10px;
+}
+
+div.redirect-info p
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
 }

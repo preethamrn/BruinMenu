@@ -17,6 +17,19 @@ div.menu-block
     width: 428px;
 }
 
+div.full-center
+{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div.full-center-inner
+{
+    display: inline-block;
+    text-align: left;
+}
+
 div.img-wrapper-left
 {
     text-align: right;
@@ -33,6 +46,66 @@ img.spill
 {
     border: 0;
     max-width: 100%;
+}
+
+div.size-drop-wrapper
+{   
+    border: 0;
+    display: none;
+    height: 0px;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+
+div.size-drop
+{
+	background-color: #0055a6;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 12px;
+	max-width: 300px;
+	padding: 5px;
+	text-align: left;
+	top: -10px;
+	z-index: 5;
+	
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+.size-drop a
+{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.size-drop a:link
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.size-drop a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.size-drop a:hover
+{
+	background-color: #002A7D;
+	color: #FFFF00;
+	text-decoration: underline;
+}
+
+.size-drop a:active
+{
+	color: #FFFFFF;
+	text-decoration: underline;
 }
 
 
@@ -154,10 +227,22 @@ div.info-box ul
     margin: 0 0 0 10px;
 }
 
+div.info-box img.webcode
+{
+    height: 16px;
+}
+
 div.section-spacer
 {
     display: block;
     height: 20px;
+}
+
+th.col-header, td.col-header
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -261,6 +346,51 @@ div.style-2flow div.menu-item
     width: 418px;
 }
 
+div.special-item-box
+{
+	-moz-border-radius: 10px;
+	border: 2px solid #1e4b87;
+    border-radius: 10px;
+	font-size: 14px;
+	margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: calc(100% - 24px);
+}
+
+div.special-item-box .menu-item
+{
+    line-height: 1.1em;
+}
+
+div.special-item-box .menu-item-name
+{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding-bottom: 2px;
+}
+
+div.special-item-box .menu-item-name a:link
+{
+    text-decoration: none;
+}
+
+div.special-item-box .menu-item-description
+{
+    display: block;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+}
+
+div.special-item-box .menu-item-price
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
 ul.day-list
 {
     list-style-type: none;
@@ -292,9 +422,32 @@ table.coffee-list td
     font-size: 16px;
 }
 
+td.price-cell
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+table.coffee-list tr:nth-of-type(odd) td
+{
+    background-color: #D7EAF1;
+}
+
+table.coffee-list tr:nth-of-type(even) td
+{
+    background-color: #EEF6F9;
+}
+
+
 div.style-noprice .menu-item-price
 {
-    display: none;
+    display: none !important;
+}
+
+div.style-nodescription .menu-item-description
+{
+    display: none !important;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -351,6 +504,11 @@ div.style-noprice .menu-item-price
         padding-left: 0;
         padding-right: 0;
         width: 100%;
+    }
+    
+    td.menu-item-cell .menu-item-webcodes
+    {
+        display: block;
     }
 }
 

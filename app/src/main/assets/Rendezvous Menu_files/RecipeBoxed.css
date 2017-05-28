@@ -47,6 +47,19 @@ div.ingred_allergen, div.ingred_allergen p
     font-size: 14px;
 }
 
+div.ingred_allergen_configurator
+{
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    width: 660px;
+}
+
+div.ingred_allergen_configurator p
+{
+    font-size: 12px;
+}
+
 div.ia_img
 {
     bottom: 140px;
@@ -106,4 +119,38 @@ div.nutritiondisclaimer
     position: absolute;
     text-align: justify;
     width: 850px;
+}
+
+div.form-section-block
+{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    width: 300px;
+}
+
+div.form-section-block-narrow
+{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    width: 200px;
+}
+
+div.form-section-block-med
+{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    width: 250px;
+}
+
+div.form-section-block ul
+{
+    margin-bottom: 10px;
+}
+
+.form-section-title
+{
+    font-weight: bold;
 }

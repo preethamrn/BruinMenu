@@ -15,3 +15,8 @@ table.coffee-list td .menu-item-webcodes
 {
     white-space: nowrap;
 }
+
+img.star-icon
+{
+    float: left;
+}

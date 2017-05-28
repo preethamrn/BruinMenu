@@ -62,16 +62,19 @@ h5 { font-size:1.4em; }
 h6 { font-size:.923em; }
 h1,h2,h3,h4,h5,h6 { color:#4e8db6; line-height:1.2; margin-bottom:10px; }
 
+
 a:link { color:#1e4b87; }
 a:visited { color:#1e4b87; }
 a:hover { color:#8237ff; }
 a:active { color:#1e4b87; }
 
+
+/*
 p a:link { color:#8237ff; }
 p a:visited { color:#8237ff; }
 p a:hover { color:#1e4b87; }
 p a:active { color:#8237ff; }
-
+*/
 p { font-size:1.4em; line-height:1.4em; margin:0 0 16px; }
 
 abbr[title] { border-bottom:1px dotted; }
@@ -729,7 +732,7 @@ div.fp-disclaimer
     width: 185px;
 }
 
-span.fp-disclaimer-change
+div.footer-disclaimer
 {
     font-style: italic;
 }

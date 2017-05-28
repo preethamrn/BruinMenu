@@ -22,6 +22,7 @@ div.item-description
 	max-width: 300px;
 	padding: 5px;
 	text-align: left;
+	text-indent: 0;
 	top: -10px;
 	z-index: 5;
 	

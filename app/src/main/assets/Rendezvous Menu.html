@@ -26,10 +26,12 @@
         <link rel="stylesheet" href="./Rendezvous Menu_files/MenusRendezvous.css">
         <link rel="stylesheet" href="./Rendezvous Menu_files/RecipeNutritionFacts.css">
         <link rel="stylesheet" href="./Rendezvous Menu_files/RecipeBoxed.css">
-        <link rel="stylesheet" href="./Rendezvous Menu_files/RecipeRedirect.css">
 
 	
-        <div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="./Rendezvous Menu_files/jquery.min.js.download"></script>
+        <div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="./Rendezvous Menu_files/jquery.min.js.download"></script><style type="text/css">
+:root #main-content > [style="padding:10px 0 0 0 !important;"],
+:root #header + #content > #left > #rlblock_left
+{ display: none !important; }</style>
 	    <script type="text/javascript" src="./Rendezvous Menu_files/modernizr.js.download"></script>
 	    <script type="text/javascript" src="./Rendezvous Menu_files/Dining.js.download"></script>
 
@@ -56,10 +58,7 @@
 
         </script>
 
-    <style type="text/css">
-:root #main-content > [style="padding:10px 0 0 0 !important;"],
-:root #header + #content > #left > #rlblock_left
-{ display: none !important; }</style></head>
+    </head>
     <body class="full-page department-page">
         <div id="ie6Warning"></div>
 
@@ -101,7 +100,7 @@
                     <!-- Responsive Buttons -->
                     <div id="mobile-buttons" role="navigation">
                         <a href="http://m.ucla.edu/" id="mobile">Apps<span></span></a>
-                        <a href="http://menu.dining.ucla.edu/Menus/Rendezvous#" id="nav-control">Menu<span></span></a>
+                        <a href="http://menu.dining.ucla.edu/Menus/Rendezvous#" id="nav-control" style="display: none;">Menu<span></span></a>
                     </div>
                     <!-- End Responsive Buttons -->
         
@@ -117,7 +116,7 @@
                         <div id="main-nav-wrapper" role="navigation">
                             <ul id="main-nav" class="main-nav-template-spacer">
                                 <li>
-                                    <a href="http://menu.dining.ucla.edu/Menus" class="active dropdown-link">MENUS &amp; NUTRITION</a>
+                                    <a href="http://menu.dining.ucla.edu/Pages/Menus" class="active dropdown-link">MENUS &amp; NUTRITION</a>
                                     <ul class="dropdown-wrapper" role="region" aria-live="polite">
                                         <li>
                                             <ul class="nav-column">
@@ -133,8 +132,8 @@
                                             </ul>
                                     
                                             <ul class="nav-column">
-                                                <li><a href="http://menu.ha.ucla.edu/foodpro/denevelatenight.asp">De Neve Late Night</a></li>
-                                                <li><a href="http://menu.dining.ucla.edu/Menus/BruinPlateGrabNGoBreakfast">Bruin Plate Grab 'n' Go Breakfast</a></li>
+                                                <li><a href="http://menu.dining.ucla.edu/Menus/DeNeveLateNight">De Neve Late Night</a></li>
+                                                <li><a href="http://menu.dining.ucla.edu/Menus/BruinPlateGrabNGoBreakfast">Bruin Plate Grab &amp; Go Breakfast</a></li>
                                             </ul>
                                     
                                             <a href="http://menu.dining.ucla.edu/Menus/Rendezvous" class="close">Close (X)</a>
@@ -187,24 +186,26 @@
 
 
 
-<!-- Menu Date: 2017-01-17 -->
+<!-- Menu Date: 2017-05-30 -->
 
 <img id="unit-logo" alt="Rendezvous" src="./Rendezvous Menu_files/rendezvous-logo.png">
 <div id="page-nav-wrapper">
     <img id="nav-left" class="nav-button" alt="Previous" src="./Rendezvous Menu_files/nav-left.png" style="display: none;">
     <div id="page-nav-shroud" class="">
         <div id="page-nav" style="left: 0px;">
-                <button class="page-nav-button active" id="b1">Breakfast</button>
-                            <button class="page-nav-button" id="b2">West</button>
-                <button class="page-nav-button" id="b3">East</button>
-                <button class="page-nav-button" id="b4">Boba &amp; More</button>
-                <button class="page-nav-button" id="b5">Weekend Brunch</button>
+
+                <button class="page-nav-button active" id="b1">Monday Specials</button>
+                            <button class="page-nav-button" id="b2">Breakfast</button>
+                            <button class="page-nav-button" id="b3">West</button>
+                <button class="page-nav-button" id="b4">East</button>
+                <button class="page-nav-button" id="b5">Boba &amp; More</button>
+                <button class="page-nav-button" id="b6">Weekend Brunch</button>
         </div>
     </div>
     <img id="nav-right" class="nav-button" alt="Next" src="./Rendezvous Menu_files/nav-right.png" style="display: none;">
 </div>
 <div class="swiper-container swiper-container-horizontal swiper-container-autoheight">
-    <div class="swiper-wrapper" style="height: 1488px; transform: translate3d(-900px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" style="width: 900px;">
+    <div class="swiper-wrapper" style="height: 847px; transform: translate3d(-900px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="5" style="width: 900px;">
                     <!-- SLIDE: BRUNCH -->
 
                         <div class="menu-block">
@@ -223,8 +224,7 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061048/1">Huevos Rancheros</a>
 	</span>
-	<span class="menu-item-description">Fried Egg and Cotija Cheese laid over a warm Tortilla, topped with a hot Tomato &amp; Pepper Ranchero Sauce. Served with Mexican Rice &amp; Refried Beans.<br>
-</span>
+	<span class="menu-item-description">Fried Egg and Cotija Cheese laid over a warm Tortilla, topped with a hot Tomato &amp; Pepper Ranchero Sauce. Served with Mexican Rice &amp; Refried Beans.</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$6.00</span>
 		<span class="menu-item-webcodes">
@@ -280,8 +280,7 @@
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 	</span>
-	<span class="menu-item-description">Fluffy cage-free scrambled eggs.<br>
-</span>
+	<span class="menu-item-description">Fluffy cage-free scrambled eggs.</span>
 </div>
 
 <div class="menu-item">
@@ -293,8 +292,7 @@
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-description">Potato hash browns, grilled until golden brown. <br>
-</span>
+	<span class="menu-item-description">Potato hash browns, grilled until golden brown.</span>
 </div>
                                 </div>
                                 <p><em>And Choice Of</em></p>
@@ -352,6 +350,7 @@
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		</span>
 	</div>
 </div>
@@ -647,16 +646,6 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031003/8">Oatmeal</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031017/8">Steel-Cut Oatmeal Cup</a>
 	</span>
 	<span class="menu-item-webcodes">
@@ -761,17 +750,15 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979632/1">Cheese Danish</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979586/1">Cheese Croissant</a>
 	</span>
 	<span class="menu-item-webcodes">
 		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$3.50</span>
 </div>
 
 <div class="menu-item">
@@ -900,13 +887,14 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/111716/5">Chicken w/ Chinese Mushrooms</a>
 	</span>
-	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
+	<span class="menu-item-description">Fri &amp; Sun</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
@@ -915,15 +903,13 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/127151/4">Honey-Glazed Walnut Shrimp</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
 	</span>
-	<span class="menu-item-description">Fri, Sun</span>
+	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
 	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
 	</div>
@@ -949,7 +935,7 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/085001/4">Sweet &amp; Sour Pork</a>
 	</span>
-	<span class="menu-item-description">Mon-Sat</span>
+	<span class="menu-item-description">Mon, Tues, Wed, Thurs, Fri, &amp; Sat</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
@@ -972,8 +958,7 @@
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.50</span>
-	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown. <br>
-</span>
+	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown.</span>
 </div>
 
 <div class="menu-item">
@@ -1036,8 +1021,7 @@
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$2.00</span>
-	<span class="menu-item-description">Black beans cooked with garlic and cumin.<br>
-</span>
+	<span class="menu-item-description">Black beans cooked with garlic and cumin.</span>
 </div>
 
 <div class="menu-item">
@@ -1067,7 +1051,67 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232169/24">Apple Berry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232174/24">Apple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232171/24">Cranberry Cocktail Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232000/24">Fountain Beverage</a>
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232170/24">Kiwi Strawberry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232173/24">Orange Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232172/24">Pineapple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.75</span>
 </div>
@@ -1172,7 +1216,292 @@
                             </div>
                         </div>
                 </div>
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 900px;">
+            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 900px;">
+                            <h2>Monday West Specials</h2>
+                            <div class="style-entree style-2flow">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071138/1">Beef Chile Colorado Wet Burrito</a>
+	</span>
+	<span class="menu-item-description">Chunks of Tender Beef  Stewed in a Guajillo  Red Sauce, Mexican Rice, and Refried Beans wrapped in a Flour Tortilla, topped with  Enchilada Sauce and Cheddar &amp; Jack cheeses. Served with Corn Tortilla Chips.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140704/1">Vegan BBQ Chicken Quesadilla</a>
+	</span>
+	<span class="menu-item-description">Vegan Chicken Strips, BBQ Sauce, Red Onions, and shredded Vegan Cheese in a Wheat Tortilla, topped with Guacamole. Served with Mexican Rice and Refried Beans.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140558/1">Vegetarian BBQ Chicken Quesadilla</a>
+	</span>
+	<span class="menu-item-description">Vegan Chicken Strips, BBQ Sauce, Red Onions, and Jack &amp; Gouda Cheeses (Non-Vegan) in a Wheat Tortilla, topped with Sour Cream &amp; Guacamole. Served with Mexican Rice and Refried Beans.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                            </div>
+                            <hr class="bar">
+                            <h2>Monday East Specials</h2>
+                            <div class="style-entree style-2flow">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027100/18">Tan Tan Ramen Noodle Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Pork Broth with Ground Pork, Eggs, and Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027097/22">Vegetable Ramen Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Vegetable and Light Soy Sauce Broth with Shiitake Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, and Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.50</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140727/12">Korean Vegetable Bowl</a>
+	</span>
+	<span class="menu-item-description">Marinated Squash served with Banchan Kimchi, seasoned Soy Sprouts, Spinach and Korean-style Spicy Daikon. Served over choice of White or Brown Rice.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/081083/20">Pork Tonkatsu</a>
+	</span>
+	<span class="menu-item-description">Panko-breaded Pork Chop served over White Rice, sautéed Green Cabbage, and Tomato Wedges, drizzed with Seasoned Rice Vinegar. Served with Tonkatsu Sauce and Sweet &amp; Spicy Thai Sauce.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		</span>
+	</div>
+</div>
+                            </div>
+                            <div class="menu-block">
+                                <h3>Oishi Sushi</h3>
+                                <div class="style-list style-noprice style-nodescription">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121099/1">California Roll</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140724/1">Cucumber &amp; Avocado Roll</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121106/1">BLT &amp; Avocado Roll</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
+	<span class="menu-item-description">Mon</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121108/1">BLT &amp; Avocado Roll Sample Box</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
+	<span class="menu-item-description">Mon</span>
+</div>
+                                </div>
+                                <h3>Boba Specials</h3>
+                                <div class="style-list style-noprice style-nodescription">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236052/32">Mango Boba Drink</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$5.75</span>
+	<span class="menu-item-description">Mon</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236065/32">Strawberry Lemonade Boba</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+	</span>
+	<span class="menu-item-price">$5.75</span>
+	<span class="menu-item-description">Mon</span>
+</div>
+                                </div>
+                            </div>
+                            <div class="menu-block">
+                                <h3>East Combo Entrées</h3>
+                                <div class="style-list style-noprice style-nodescription">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071094/4">Beef &amp; Broccoli</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/112172/4">Orange Chicken</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140413/4">Vegetable Stir-Fry</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/400418/6">Kung Pao Chicken</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="APNT" src="./Rendezvous Menu_files/apnt.png">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+	<span class="menu-item-description">Mon, Wed, Sat, &amp; Sun</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/085001/4">Sweet &amp; Sour Pork</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+	<span class="menu-item-description">Mon, Tues, Wed, Thurs, Fri, &amp; Sat</span>
+</div>
+                                </div>
+                            </div>
+            </div>
+
+                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 900px;">
                     <!-- SLIDE: BREAKFAST -->
 
                     <div class="menu-block">
@@ -1181,7 +1510,7 @@
                         <div class="info-box">
                             <h3>Combo Meal:</h3>
                             <ul>
-                                <li>Choice of Entree</li>
+                                <li>Choice of Entrée</li>
                                 <li><small>PLUS</small> Tater Tots <small>OR</small> Whole Fruit</li>
                                 <li><small>AND</small> Drink</li>
                             </ul>
@@ -1200,6 +1529,7 @@
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		</span>
 	</div>
 </div>
@@ -1247,6 +1577,7 @@
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		</span>
 	</div>
 </div>
@@ -1498,16 +1829,6 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031003/8">Oatmeal</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031017/8">Steel-Cut Oatmeal Cup</a>
 	</span>
 	<span class="menu-item-webcodes">
@@ -1615,17 +1936,15 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979632/1">Cheese Danish</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979586/1">Cheese Croissant</a>
 	</span>
 	<span class="menu-item-webcodes">
 		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$3.50</span>
 </div>
 
 <div class="menu-item">
@@ -1698,8 +2017,7 @@
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.50</span>
-	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown. <br>
-</span>
+	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown.</span>
 </div>
 
 <div class="menu-item">
@@ -1814,7 +2132,7 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/235059/3%7C8">Decaffeinated Coffee</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/235059/3!8">Decaffeinated Coffee</a>
 	</span>
 	<span class="menu-item-webcodes">
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
@@ -1858,7 +2176,67 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232169/24">Apple Berry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232174/24">Apple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232171/24">Cranberry Cocktail Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232000/24">Fountain Beverage</a>
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232170/24">Kiwi Strawberry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232173/24">Orange Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232172/24">Pineapple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.75</span>
 </div>
@@ -1866,7 +2244,7 @@
                     </div>
                     
                 </div>
-                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 900px;">
+                        <div class="swiper-slide" data-swiper-slide-index="2" style="width: 900px;">
                     <!-- SLIDE: WEST -->
 
                         <div class="menu-block">
@@ -1887,8 +2265,9 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/081163/1">Pork Chile Verde Wet Burrito</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071138/1">Beef Chile Colorado Wet Burrito</a>
 	</span>
+	<span class="menu-item-description">Chunks of Tender Beef  Stewed in a Guajillo  Red Sauce, Mexican Rice, and Refried Beans wrapped in a Flour Tortilla, topped with  Enchilada Sauce and Cheddar &amp; Jack cheeses. Served with Corn Tortilla Chips.</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$8.00</span>
 		<span class="menu-item-webcodes">
@@ -1922,6 +2301,7 @@
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.75</span>
 		<span class="menu-item-webcodes">
+			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
 			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
@@ -2007,6 +2387,7 @@
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.75</span>
 		<span class="menu-item-webcodes">
+			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
 			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
@@ -2094,13 +2475,14 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/112047/17">Chipotle Chicken Burrito</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/123024/1">Seafood Tostada</a>
 	</span>
-	<span class="menu-item-description">Shredded Chicken cooked with Garlic, Salt &amp; Pepper and enhanced with Chipotle Pepper Sauce (Medium Spicy).  Filled with Black Beans, Mexican Rice and wrapped in a Chipotle Tortilla.  Served with Tortilla Chips, Sour Cream, and Guacamole.</span>
 	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-price">$8.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
@@ -2130,6 +2512,7 @@
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.75</span>
 		<span class="menu-item-webcodes">
+			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
 			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
@@ -2439,8 +2822,7 @@
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/081162/1">Pork Carnitas Burrito Bowl</a>
 	</span>
 	<span class="menu-item-price">$8.00</span>
-	<span class="menu-item-description">Slow-braised pork shoulder, served with tortilla chips, Mexican rice, and refried beans topped with cheese and guacamole.<br>
-</span>
+	<span class="menu-item-description">Slow-braised pork shoulder, served with tortilla chips, Mexican rice, and refried beans topped with cheese and guacamole.</span>
 </div>
 
 <div class="menu-item">
@@ -2683,8 +3065,7 @@
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$2.00</span>
-	<span class="menu-item-description">Black beans cooked with garlic and cumin.<br>
-</span>
+	<span class="menu-item-description">Black beans cooked with garlic and cumin.</span>
 </div>
 
 <div class="menu-item">
@@ -2715,7 +3096,67 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232169/24">Apple Berry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232174/24">Apple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232171/24">Cranberry Cocktail Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232000/24">Fountain Beverage</a>
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232170/24">Kiwi Strawberry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232173/24">Orange Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232172/24">Pineapple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.75</span>
 </div>
@@ -2820,7 +3261,7 @@
                         </div>
                     </div>
                 </div>    
-                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 900px;">
+                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 900px;">
                     <!-- SLIDE: EAST -->
                     
                         <h2>Daily Specials</h2>
@@ -2837,9 +3278,9 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027091/23">Mandoo Ramen</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027100/18">Tan Tan Ramen Noodle Soup</a>
 	</span>
-	<span class="menu-item-description">Pork Potsticker in a Pork Broth with Ramen Noodles and Sauteed Green Cabbage, garnished with Green Onions.</span>
+	<span class="menu-item-description">Ramen Noodles in a Pork Broth with Ground Pork, Eggs, and Green Onions.</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.25</span>
 		<span class="menu-item-webcodes">
@@ -2870,12 +3311,13 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140727/12">Korean Vegetable Bowl</a>
 	</span>
-	<span class="menu-item-description">Marinated Squash served with Banchan Kimchi, seasoned Soy Sprouts, Spinach and Korean-style Spicy Daikon. Served over choice of White or Brown Rice. </span>
+	<span class="menu-item-description">Marinated Squash served with Banchan Kimchi, seasoned Soy Sprouts, Spinach and Korean-style Spicy Daikon. Served over choice of White or Brown Rice.</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.25</span>
 		<span class="menu-item-webcodes">
 			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
 	</div>
 </div>
@@ -2889,9 +3331,9 @@
 		<span class="menu-item-price">$8.00</span>
 		<span class="menu-item-webcodes">
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		</span>
 	</div>
 </div>
@@ -2904,14 +3346,215 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/127149/23">Shrimp Tempura Udon Noodle Bowl</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/112211/24">Chicken Katsu Udon Noodle Bowl</a>
 	</span>
+	<span class="menu-item-description">Udon Broth with Udon Noodles, seasoned Mixed Vegetables, and strips of Panko-breaded Chicken Breast. (Contains Fish Flakes)</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.25</span>
 		<span class="menu-item-webcodes">
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/127121/29">Vegetarian Miso Ramen Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Miso broth with Kikurage Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, Napa Cabbage, &amp; Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.50</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/111231/10">Japanese Chicken Curry</a>
+	</span>
+	<span class="menu-item-description">Chicken, Medium-Spicy Curry with Potatoes, Onions, and Carrots. Served with choice of White or Brown Rice, Broccoli, and Fukujin Zuke (pickled daikon).</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140427/14">Japanese Tofu Curry</a>
+	</span>
+	<span class="menu-item-description">Organic Tofu, Medium-Spicy Curry with Potatoes, Onions, and Carrots. Served with choice of White or Brown Rice, Broccoli, and Fukujin Zuke (pickled daikon).</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <h4>Wednesday:</h4>
+                                    <hr class="bar">
+                                    <div class="style-entree style-2flow">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/029013/19">Chilled Kimchi &amp; Noodle Soup</a>
+	</span>
+	<span class="menu-item-altname">Kimchi Naengmyun</span>
+	<span class="menu-item-description">Cold buckwheat noodles served in a refreshing chilled beef broth, topped with boiled egg, spicy kimchi, and julienned cucumbers.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027097/22">Vegetable Ramen Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Vegetable and Light Soy Sauce Broth with Shiitake Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, and Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.50</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/081136/15">BBQ Korean Pork Spare Ribs</a>
+	</span>
+	<span class="menu-item-description">Tangy Korean Pork Spare Ribs with Sticky White Rice, a side of Korean Potato Salad, and a red leaf green salad tossed with Korean dressing.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140727/12">Korean Vegetable Bowl</a>
+	</span>
+	<span class="menu-item-description">Marinated Squash served with Banchan Kimchi, seasoned Soy Sprouts, Spinach and Korean-style Spicy Daikon. Served over choice of White or Brown Rice.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <h4>Thursday:</h4>
+                                    <hr class="bar">
+                                    <div class="style-entree style-2flow">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027099/20">Beef Pho</a>
+	</span>
+	<span class="menu-item-description">Vietnamese Beef Soup with Rice Noodles and Onions. Garnish with Cilantro, Bean Sprouts, Thai Basil, Mint Leaves, Jalapeño Peppers, and Limes (Optional toppings). (Contains Fish Sauce)</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027097/22">Vegetable Ramen Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Vegetable and Light Soy Sauce Broth with Shiitake Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, and Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.50</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/111272/18">Teriyaki Chicken Bowl</a>
+	</span>
+	<span class="menu-item-description">Grilled Chicken Topped with House-made Teriyaki Sauce. Served with Stir Fried Vegetables and choice of White or Brown Rice.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140556/18">Vegan Teriyaki Chicken Bowl</a>
+	</span>
+	<span class="menu-item-description">Vegan Chicken Strips Topped with House-made Teriyaki Sauce. Served with Stir Fried Vegetables and choice of White or Brown Rice.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <h4>Friday:</h4>
+                                    <hr class="bar">
+                                    <div class="style-entree style-2flow">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027094/21">Ramen Daeji Bulgogi</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Pork Broth with thinly sliced Spicy Pork and Kimchi.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
@@ -2927,12 +3570,50 @@
 		<span class="menu-item-price">$6.50</span>
 		<span class="menu-item-webcodes">
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
 	</div>
 </div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/123084/16">Shrimp Sushi Bowl</a>
+	</span>
+	<span class="menu-item-description">Sushi Rice topped with Spicy Mayo Shrimp, Japanese Cucumber, Seaweed Salad, Takuwan (Sweet Pickled Daikon), Edamame, Sliced Avocado, Shredded Nori (Seaweed), and Roasted Sesame Seeds, drizzled with Unagi (Eel) Sauce and Spicy Mayo.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140557/1">Vegetable Sushi Bowl</a>
+	</span>
+	<span class="menu-item-description">Sushi Rice topped with Japanese Cucumber, Seaweed Salad, Takuwan (Sweet Pickled  Daikon), Edamame,  Sliced Avocado, Shredded Nori (Seaweed), and Roasted Sesame Seeds, drizzled with Spicy Mayo.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <h4>Saturday (Dinner Only):</h4>
+                                    <hr class="bar">
+                                    <div class="style-entree style-2flow">
 
 <div class="menu-item">
 	<span class="menu-item-name">
@@ -2986,245 +3667,6 @@
                                     </div>
                                 </li>
                                                             <li>
-                                    <h4>Wednesday:</h4>
-                                    <hr class="bar">
-                                    <div class="style-entree style-2flow">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027040/21">Spicy Korean Seafood Pot</a>
-	</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$8.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027097/22">Vegetable Ramen Soup</a>
-	</span>
-	<span class="menu-item-description">Ramen Noodles in a Vegetable and Light Soy Sauce Broth with Shiitake Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, and Green Onions.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$6.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/081136/15">BBQ Korean Pork Spare Ribs</a>
-	</span>
-	<span class="menu-item-description">Tangy Korean Pork Spare Ribs with Sticky White Rice, a side of Korean Potato Salad, and a red leaf green salad tossed with Korean dressing.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$8.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140727/12">Korean Vegetable Bowl</a>
-	</span>
-	<span class="menu-item-description">Marinated Squash served with Banchan Kimchi, seasoned Soy Sprouts, Spinach and Korean-style Spicy Daikon. Served over choice of White or Brown Rice. </span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		</span>
-	</div>
-</div>
-                                    </div>
-                                </li>
-                                                            <li>
-                                    <h4>Thursday:</h4>
-                                    <hr class="bar">
-                                    <div class="style-entree style-2flow">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027099/20">Beef Pho</a>
-	</span>
-	<span class="menu-item-description">Vietnamese Beef Soup with Rice Noodles and Onions. Garnish with Cilantro, Bean Sprouts, Thai Basil, Mint Leaves, Jalapeño Peppers, and Limes (Optional toppings). (Contains Fish Sauce)</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027097/22">Vegetable Ramen Soup</a>
-	</span>
-	<span class="menu-item-description">Ramen Noodles in a Vegetable and Light Soy Sauce Broth with Shiitake Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, and Green Onions.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$6.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/111272/18">Teriyaki Chicken Bowl</a>
-	</span>
-	<span class="menu-item-description">Grilled Chicken Topped with House-made Teriyaki Sauce. Served with Stir Fried Vegetables and choice of White or Brown Rice. </span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$8.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140556/18">Vegan Teriyaki Chicken Bowl</a>
-	</span>
-	<span class="menu-item-description">Vegan Chicken Strips Topped with House-made Teriyaki Sauce. Served with Stir Fried Vegetables and choice of White or Brown Rice. </span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.75</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-                                    </div>
-                                </li>
-                                                            <li>
-                                    <h4>Friday:</h4>
-                                    <hr class="bar">
-                                    <div class="style-entree style-2flow">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027094/21">Ramen Daeji Bulgogi</a>
-	</span>
-	<span class="menu-item-description">Ramen Noodles in a Pork Broth with thinly sliced Spicy Pork and Kimchi.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/127121/29">Vegetarian Miso Ramen Soup</a>
-	</span>
-	<span class="menu-item-description">Ramen Noodles in a Miso broth with Kikurage Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, Napa Cabbage, &amp; Green Onions.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$6.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/123084/16">Shrimp Sushi Bowl</a>
-	</span>
-	<span class="menu-item-description">Sushi Rice topped with Spicy Mayo Shrimp, Japanese Cucumber, Seaweed Salad, Takuwan (Sweet Pickled Daikon), Edamame, Sliced Avocado, Shredded Nori (Seaweed), and Roasted Sesame Seeds, drizzled with Unagi (Eel) Sauce and Spicy Mayo.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$8.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
-			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140557/1">Vegetable Sushi Bowl</a>
-	</span>
-	<span class="menu-item-description">Sushi Rice topped with Japanese Cucumber, Seaweed Salad, Takuwan (Sweet Pickled  Daikon), Edamame,  Sliced Avocado, Shredded Nori (Seaweed), and Roasted Sesame Seeds, drizzled with Spicy Mayo.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-                                    </div>
-                                </li>
-                                                            <li>
-                                    <h4>Saturday (Dinner Only):</h4>
-                                    <hr class="bar">
-                                    <div class="style-entree style-2flow">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071044/1">Bibimbap</a>
-	</span>
-	<span class="menu-item-description">An assortment of Raw and Sauteed Vegetables, Sliced Beef, and a Poached Egg over Sticky White Rice.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$8.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140117/1">Bibimbap without Beef</a>
-	</span>
-	<span class="menu-item-description">An assortment of Raw and Sauteed Vegetables and a Poached Egg over Sticky White Rice.</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		</span>
-	</div>
-</div>
-                                    </div>
-                                </li>
-                                                            <li>
                                     <h4>Sunday (Dinner Only):</h4>
                                     <hr class="bar">
                                     <div class="style-entree style-2flow">
@@ -3247,7 +3689,7 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140556/18">Vegan Teriyaki Chicken Bowl</a>
 	</span>
-	<span class="menu-item-description">Vegan Chicken Strips Topped with House-made Teriyaki Sauce. Served with Stir Fried Vegetables and choice of White or Brown Rice. </span>
+	<span class="menu-item-description">Vegan Chicken Strips Topped with House-made Teriyaki Sauce. Served with Stir Fried Vegetables and choice of White or Brown Rice.</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.75</span>
 		<span class="menu-item-webcodes">
@@ -3329,13 +3771,14 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/111716/5">Chicken w/ Chinese Mushrooms</a>
 	</span>
-	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
+	<span class="menu-item-description">Fri &amp; Sun</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
@@ -3344,15 +3787,13 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/127151/4">Honey-Glazed Walnut Shrimp</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
 	</span>
-	<span class="menu-item-description">Fri, Sun</span>
+	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
 	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
 	</div>
@@ -3378,7 +3819,7 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/085001/4">Sweet &amp; Sour Pork</a>
 	</span>
-	<span class="menu-item-description">Mon-Sat</span>
+	<span class="menu-item-description">Mon, Tues, Wed, Thurs, Fri, &amp; Sat</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
@@ -3396,6 +3837,196 @@
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                        </div>
+                    </div>
+
+                    <div class="menu-block">
+                        <h2>Oishi Sushi</h2>
+                        <div class="info-box">
+                            <p><em>Available Monday through Friday.</em></p>
+                            <h3>Combo Meal:</h3>
+                            <ul>
+                                <li>8-piece Sushi Roll</li>
+                                <li>Ginger, Wasabi, <small>AND</small> Soy Sauce</li>
+                                <li>Small Miso Soup <small>OR</small> Small Sunomono Cucumber Salad</li>
+                                <li><small>AND</small> Drink</li>
+                            </ul>
+                            <p>One Meal Plan Swipe</p>
+                        </div>
+                        <div class="style-list">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121099/1">California Roll</a>
+	</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140724/1">Cucumber &amp; Avocado Roll</a>
+	</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121106/1">BLT &amp; Avocado Roll</a>
+	</span>
+	<span class="menu-item-description">Mon</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121108/1">BLT &amp; Avocado Roll Sample Box</a>
+	</span>
+	<span class="menu-item-description">Mon</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/123058/1">Spicy Shrimp Roll</a>
+	</span>
+	<span class="menu-item-description">Tues</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121115/1">Spicy Shrimp Roll Sample Box</a>
+	</span>
+	<span class="menu-item-description">Tues</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121104/1">Spicy Salmon Roll</a>
+	</span>
+	<span class="menu-item-description">Wed &amp; Fri</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121110/1">Spicy Salmon Roll Sample Box</a>
+	</span>
+	<span class="menu-item-description">Wed &amp; Fri</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121101/1">Spicy Tuna Roll</a>
+	</span>
+	<span class="menu-item-description">Thurs</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121111/1">Spicy Tuna Roll Sample Box</a>
+	</span>
+	<span class="menu-item-description">Thurs</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
@@ -3451,17 +4082,80 @@
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 	</span>
 	<span class="menu-item-price">$2.00</span>
 </div>
                         </div>
+                    </div>
 
+                    <div class="menu-block">
                         <h3>Drinks</h3>
                         <div class="style-side">
 
 <div class="menu-item">
 	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232169/24">Apple Berry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232174/24">Apple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232171/24">Cranberry Cocktail Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232000/24">Fountain Beverage</a>
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232170/24">Kiwi Strawberry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232173/24">Orange Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232172/24">Pineapple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.75</span>
 </div>
@@ -3568,10 +4262,10 @@
                     
 
                 </div>
-                <div class="swiper-slide" data-swiper-slide-index="3" style="width: 900px;">
+                <div class="swiper-slide" data-swiper-slide-index="4" style="width: 900px;">
                     <!-- SLIDE: BOBA -->
 
-                        <div class="menu-block">
+                        <div class="full-center"><div class="full-center-inner">
                             <h2>Boba Drinks</h2>
                             <div class="info-box">
                                 <p><em>Available during Brunch, Lunch, &amp; Dinner Service.</em><br></p>
@@ -3583,205 +4277,349 @@
                                 <p>One Meal Plan Swipe</p>
                             </div>
 
-                                <h3>16-oz Boba Drinks</h3>
-                                <div class="style-side">
+                            <table class="coffee-list">
+                                        <thead>
+                                            <tr>
+                                                <th>&nbsp;</th>
+                                                <th class="col-header">Regular<br>16 oz.</th>
+                                                <th class="col-header">Large<br>32 oz.</th>
+                                            </tr>
+                                        </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Green Milk Tea Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                                        <img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236049/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236049/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Horchata Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236060/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236060/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Milk Tea Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                                        <img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236048/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236048/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Taro Boba Drink</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                                        <img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236061/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236061/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Thai Tea Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236046/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236046/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Vietnamese Coffee Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236047/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236047/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Cookies &amp; Cream Delight Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Fri
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                                        <img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+                                                                        <img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236051/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236051/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Cucumber &amp; Lime Fresca Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Wed
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236063/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236063/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Fruit Medley Tea</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Fri
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236066/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236066/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Lemonade</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Tues &amp; Thurs
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233213/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233213/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Mango Boba Drink</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Mon
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                                        <img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236052/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236052/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Strawberry Lemonade Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Mon
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236065/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236065/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Strawberry N' Cream Boba</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Tues
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+                                                                        <img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+                                                                        <img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236064/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236064/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="menu-item-cell">
+                                                            <span class="menu-item-name">
+                                                                <a class="size-drop-link" href="javascript:;">Watermelon Water</a>
+                                                            </span>
+                                                            <span class="menu-item-webcodes">
+                                                                    <span class="menu-item-description">
+                                                                        Wed &amp; Thurs
+                                                                    </span>
+                                                                                                                                        <img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+                                                            </span>
+                                                            <div class="size-drop-wrapper"><div class="size-drop">
+                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233214/16">Regular (16 oz)</a>
+                                                                                                                                    <a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233214/32">Large (32 oz)</a>
+                                                            </div></div>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$3.75</span>
+                                                    </td>
+                                                    <td class="price-cell">
+                                                            <span class="menu-item-price">$5.75</span>
+                                                    </td>
+                                                </tr>
+                                        </tbody>
 
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236049/16">Green Milk Tea Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236060/16">Horchata Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233213/16">Lemonade</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236048/16">Milk Tea Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236064/16">Strawberry N' Cream Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236061/16">Taro Boba Drink</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236046/16">Thai Tea Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236047/16">Vietnamese Coffee Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$3.75</span>
-</div>
-                                </div>
-                                                            <h3>32-oz Boba Drinks</h3>
-                                <div class="style-side">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236049/32">Green Milk Tea Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236060/32">Horchata Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233213/32">Lemonade</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236048/32">Milk Tea Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236064/32">Strawberry N' Cream Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236061/32">Taro Boba Drink</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236046/32">Thai Tea Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236047/32">Vietnamese Coffee Boba</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$5.75</span>
-</div>
-                                </div>
-                        </div>
+                            </table>
                         
-                        <div class="menu-block">
-                            <h2>Desserts</h2>
-                            <div class="info-box">
-                                <p>
-                                    <em>Available 9 p.m. to Midnight.</em><br>
-                                    One Meal Plan Swipe.
-                                </p>
-                            </div>
-                                <div class="style-entree">
+                        </div></div>
+                        
+                        <h2>Desserts</h2>
+                        <div class="info-box">
+                            <p>
+                                <em>Available 9 p.m. to Midnight.</em><br>
+                                One Meal Plan Swipe.
+                            </p>
+                        </div>
+                            <div class="style-entree style-2flow">
 
 <div class="menu-item">
 	<span class="menu-item-name">
@@ -3831,10 +4669,9 @@
 		</span>
 	</div>
 </div>
-                                </div>
-                        </div>
+                            </div>
                 </div>
-                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="4" style="width: 900px;">
+                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="5" style="width: 900px;">
                     <!-- SLIDE: BRUNCH -->
 
                         <div class="menu-block">
@@ -3853,8 +4690,7 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061048/1">Huevos Rancheros</a>
 	</span>
-	<span class="menu-item-description">Fried Egg and Cotija Cheese laid over a warm Tortilla, topped with a hot Tomato &amp; Pepper Ranchero Sauce. Served with Mexican Rice &amp; Refried Beans.<br>
-</span>
+	<span class="menu-item-description">Fried Egg and Cotija Cheese laid over a warm Tortilla, topped with a hot Tomato &amp; Pepper Ranchero Sauce. Served with Mexican Rice &amp; Refried Beans.</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$6.00</span>
 		<span class="menu-item-webcodes">
@@ -3910,8 +4746,7 @@
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 	</span>
-	<span class="menu-item-description">Fluffy cage-free scrambled eggs.<br>
-</span>
+	<span class="menu-item-description">Fluffy cage-free scrambled eggs.</span>
 </div>
 
 <div class="menu-item">
@@ -3923,8 +4758,7 @@
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-description">Potato hash browns, grilled until golden brown. <br>
-</span>
+	<span class="menu-item-description">Potato hash browns, grilled until golden brown.</span>
 </div>
                                 </div>
                                 <p><em>And Choice Of</em></p>
@@ -3982,6 +4816,7 @@
 			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		</span>
 	</div>
 </div>
@@ -4277,16 +5112,6 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031003/8">Oatmeal</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031017/8">Steel-Cut Oatmeal Cup</a>
 	</span>
 	<span class="menu-item-webcodes">
@@ -4391,17 +5216,15 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979632/1">Cheese Danish</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979586/1">Cheese Croissant</a>
 	</span>
 	<span class="menu-item-webcodes">
 		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
 		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$3.50</span>
 </div>
 
 <div class="menu-item">
@@ -4530,13 +5353,14 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/111716/5">Chicken w/ Chinese Mushrooms</a>
 	</span>
-	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
+	<span class="menu-item-description">Fri &amp; Sun</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
@@ -4545,15 +5369,13 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/127151/4">Honey-Glazed Walnut Shrimp</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
 	</span>
-	<span class="menu-item-description">Fri, Sun</span>
+	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
 	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
-			<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 		</span>
 	</div>
@@ -4579,7 +5401,7 @@
 	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/085001/4">Sweet &amp; Sour Pork</a>
 	</span>
-	<span class="menu-item-description">Mon-Sat</span>
+	<span class="menu-item-description">Mon, Tues, Wed, Thurs, Fri, &amp; Sat</span>
 	<div class="menu-item-lower">
 		<span class="menu-item-price">$7.00</span>
 		<span class="menu-item-webcodes">
@@ -4602,8 +5424,7 @@
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.50</span>
-	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown. <br>
-</span>
+	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown.</span>
 </div>
 
 <div class="menu-item">
@@ -4666,8 +5487,7 @@
 		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$2.00</span>
-	<span class="menu-item-description">Black beans cooked with garlic and cumin.<br>
-</span>
+	<span class="menu-item-description">Black beans cooked with garlic and cumin.</span>
 </div>
 
 <div class="menu-item">
@@ -4697,7 +5517,67 @@
 
 <div class="menu-item">
 	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232169/24">Apple Berry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232174/24">Apple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232171/24">Cranberry Cocktail Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
 		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232000/24">Fountain Beverage</a>
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232170/24">Kiwi Strawberry Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232173/24">Orange Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+	</span>
+	<span class="menu-item-price">$1.75</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232172/24">Pineapple Spritzer</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
 	</span>
 	<span class="menu-item-price">$1.75</span>
 </div>
@@ -4803,699 +5683,289 @@
                         </div>
                 </div>
     <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 900px;">
-                    <!-- SLIDE: BREAKFAST -->
-
-                    <div class="menu-block">
-                        <h2>Rendezvous West</h2>
-
-                        <div class="info-box">
-                            <h3>Combo Meal:</h3>
-                            <ul>
-                                <li>Choice of Entree</li>
-                                <li><small>PLUS</small> Tater Tots <small>OR</small> Whole Fruit</li>
-                                <li><small>AND</small> Drink</li>
-                            </ul>
-                            <p>One Meal Plan Swipe</p>
-                        </div>
-                        <div class="style-list">
+                            <h2>Monday West Specials</h2>
+                            <div class="style-entree style-2flow">
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071128/1">Machaca Breakfast Burrito</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071138/1">Beef Chile Colorado Wet Burrito</a>
 	</span>
+	<span class="menu-item-description">Chunks of Tender Beef  Stewed in a Guajillo  Red Sauce, Mexican Rice, and Refried Beans wrapped in a Flour Tortilla, topped with  Enchilada Sauce and Cheddar &amp; Jack cheeses. Served with Corn Tortilla Chips.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140704/1">Vegan BBQ Chicken Quesadilla</a>
+	</span>
+	<span class="menu-item-description">Vegan Chicken Strips, BBQ Sauce, Red Onions, and shredded Vegan Cheese in a Wheat Tortilla, topped with Guacamole. Served with Mexican Rice and Refried Beans.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140558/1">Vegetarian BBQ Chicken Quesadilla</a>
+	</span>
+	<span class="menu-item-description">Vegan Chicken Strips, BBQ Sauce, Red Onions, and Jack &amp; Gouda Cheeses (Non-Vegan) in a Wheat Tortilla, topped with Sour Cream &amp; Guacamole. Served with Mexican Rice and Refried Beans.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.75</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+                            </div>
+                            <hr class="bar">
+                            <h2>Monday East Specials</h2>
+                            <div class="style-entree style-2flow">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027100/18">Tan Tan Ramen Noodle Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Pork Broth with Ground Pork, Eggs, and Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/027097/22">Vegetable Ramen Soup</a>
+	</span>
+	<span class="menu-item-description">Ramen Noodles in a Vegetable and Light Soy Sauce Broth with Shiitake Mushrooms, Spinach, Shredded Carrots, Bean Sprouts, and Green Onions.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$6.50</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140727/12">Korean Vegetable Bowl</a>
+	</span>
+	<span class="menu-item-description">Marinated Squash served with Banchan Kimchi, seasoned Soy Sprouts, Spinach and Korean-style Spicy Daikon. Served over choice of White or Brown Rice.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$7.25</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+		</span>
+	</div>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/081083/20">Pork Tonkatsu</a>
+	</span>
+	<span class="menu-item-description">Panko-breaded Pork Chop served over White Rice, sautéed Green Cabbage, and Tomato Wedges, drizzed with Seasoned Rice Vinegar. Served with Tonkatsu Sauce and Sweet &amp; Spicy Thai Sauce.</span>
+	<div class="menu-item-lower">
+		<span class="menu-item-price">$8.00</span>
+		<span class="menu-item-webcodes">
+			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		</span>
+	</div>
+</div>
+                            </div>
+                            <div class="menu-block">
+                                <h3>Oishi Sushi</h3>
+                                <div class="style-list style-noprice style-nodescription">
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121099/1">California Roll</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140724/1">Cucumber &amp; Avocado Roll</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121106/1">BLT &amp; Avocado Roll</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$6.00</span>
 	<span class="menu-item-description">Mon</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$7.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
 </div>
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061071/1">Sausage, Egg, &amp; Tator Tot Burrito</a>
-	</span>
-	<span class="menu-item-description">Mon &amp; Wed</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061069/1">Bacon, Egg, &amp; Tator Tot Burrito</a>
-	</span>
-	<span class="menu-item-description">Tues, Thurs, &amp; Sat</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/083016/1">Chorizo &amp; Egg Burrito</a>
-	</span>
-	<span class="menu-item-description">Thurs &amp; Sun</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061084/1">Ham, Egg, &amp; Cheese Burrito</a>
-	</span>
-	<span class="menu-item-description">Fri</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061114/1">Egg &amp; Cheese Burrito</a>
-	</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$4.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061056/1">Vegetable &amp; Egg Breakfast Burrito</a>
-	</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$4.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-                            <br>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061085/1">English Muffin Sandwich w/ Bacon</a>
-	</span>
-	<span class="menu-item-description">Tues &amp; Thurs</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061088/1">English Muffin Sandwich w/ Canadian Bacon</a>
-	</span>
-	<span class="menu-item-description">Tues</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061086/1">English Muffin Sandwich w/ Pork Sausage</a>
-	</span>
-	<span class="menu-item-description">Thurs</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061087/1">Vegetarian English Muffin Sandwich</a>
-	</span>
-	<span class="menu-item-description">Tues &amp; Thurs</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$4.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-                            <br>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061043/1">Bagel Sandwich w/ Bacon</a>
-	</span>
-	<span class="menu-item-description">Mon, Wed, &amp; Fri</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$5.00</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061007/1">Bagel Sandwich w/ Egg &amp; Cheese</a>
-	</span>
-	<span class="menu-item-description">Mon, Wed, &amp; Fri</span>
-	<div class="menu-item-lower">
-		<span class="menu-item-price">$4.50</span>
-		<span class="menu-item-webcodes">
-			<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-			<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-			<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-			<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-			<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-		</span>
-	</div>
-</div>
-                        </div>
-                    </div>
-
-                    <div class="menu-block">
-                        <h2>Rendezvous East</h2>
-
-                        <div class="info-box">
-                            <h3>Combo Meal:</h3>
-                            <ul>
-                                <li>Potstickers <small>OR</small> Bao Bun</li>
-                                <li><small>PLUS</small> Whole Fruit</li>
-                                <li><small>AND</small> Drink</li>
-                            </ul>
-                            <p>One Meal Plan Swipe</p>
-                        </div>
-                        <div class="style-side">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/115000/1">Chicken Potstickers</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/121108/1">BLT &amp; Avocado Roll Sample Box</a>
 	</span>
 	<span class="menu-item-webcodes">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/083019/1">Pork Potstickers</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140129/1">Vegetable Potstickers</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$5.00</span>
-</div>
-                            <br>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/087017/2">BBQ Pork Bao Bun</a>
-	</span>
-	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
+		<img class="webcode" alt="AFSH" src="./Rendezvous Menu_files/afsh.png">
+		<img class="webcode" alt="ACSF" src="./Rendezvous Menu_files/acsf.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
 	<span class="menu-item-price">$6.00</span>
+	<span class="menu-item-description">Mon</span>
 </div>
+                                </div>
+                                <h3>Boba Specials</h3>
+                                <div class="style-list style-noprice style-nodescription">
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140140/2">Vegetable Bao Bun</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236052/32">Mango Boba Drink</a>
 	</span>
 	<span class="menu-item-webcodes">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
+		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$6.00</span>
-</div>
-                        </div>
-                        <h2>Sweets &amp; Treats</h2>
-
-                        <div class="info-box">
-                            <h3>Combo Meal:</h3>
-                            <ul>
-                                <li>
-                                    Choice of Entrée:
-                                    <ul>
-                                        <li>Oatmeal Cup,</li>
-                                        <li>Bagel &amp; Cream Cheese,</li>
-                                        <li>Cereal with Milk,</li>
-                                        <li>Yogurt Parfait Cup,</li>
-                                        <li>Fresh Fruit Cup,</li>
-                                        <li><small>OR</small> Pastry</li>
-                                    </ul>
-                                </li>
-                                <li><small>PLUS</small> Whole Fruit</li>
-                                <li><small>AND</small> Drink</li>
-                            </ul>
-                            <p>One Meal Plan Swipe</p>
-                        </div>
-                        <div class="style-side">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031003/8">Oatmeal</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
+	<span class="menu-item-price">$5.75</span>
+	<span class="menu-item-description">Mon</span>
 </div>
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/031017/8">Steel-Cut Oatmeal Cup</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
-	<span class="menu-item-description">Served with Brown Sugar and Raisins</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061063/1">Bagel w/ Cream Cheese</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/236065/32">Strawberry Lemonade Boba</a>
 	</span>
 	<span class="menu-item-webcodes">
 		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$2.75</span>
+	<span class="menu-item-price">$5.75</span>
+	<span class="menu-item-description">Mon</span>
 </div>
-                            <br>
+                                </div>
+                            </div>
+                            <div class="menu-block">
+                                <h3>East Combo Entrées</h3>
+                                <div class="style-list style-noprice style-nodescription">
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/201010/12">Fruit Cup</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/071094/4">Beef &amp; Broccoli</a>
 	</span>
 	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$4.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/048007/16">Yogurt Parfait</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-	</span>
-	<span class="menu-item-price">$5.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/061063/1">Bagel w/ Cream Cheese</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$2.75</span>
-</div>
-                        </div>
-                        <div class="style-side">
-                            <h3>Pastries</h3>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979592/1">Banana Walnut Muffin</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$2.50</span>
+	<span class="menu-item-price">$7.00</span>
 </div>
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979591/1">Blueberry Muffin</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/112172/4">Orange Chicken</a>
 	</span>
 	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140413/4">Vegetable Stir-Fry</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/140340/4">Eggplant &amp; Tofu w/ Spicy Garlic</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
+		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
+	</span>
+	<span class="menu-item-price">$7.00</span>
+	<span class="menu-item-description">Mon, Wed, Fri, &amp; Sat</span>
+</div>
+
+<div class="menu-item">
+	<span class="menu-item-name">
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/400418/6">Kung Pao Chicken</a>
+	</span>
+	<span class="menu-item-webcodes">
+		<img class="webcode" alt="APNT" src="./Rendezvous Menu_files/apnt.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
 		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$2.50</span>
+	<span class="menu-item-price">$7.00</span>
+	<span class="menu-item-description">Mon, Wed, Sat, &amp; Sun</span>
 </div>
 
 <div class="menu-item">
 	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979601/1">Butter Croissant</a>
+		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/085001/4">Sweet &amp; Sour Pork</a>
 	</span>
 	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
 		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
 		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
 	</span>
-	<span class="menu-item-price">$3.50</span>
+	<span class="menu-item-price">$7.00</span>
+	<span class="menu-item-description">Mon, Tues, Wed, Thurs, Fri, &amp; Sat</span>
 </div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979632/1">Cheese Danish</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979589/1">Chocolate Hazelnut  Croissant</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="ATNT" src="./Rendezvous Menu_files/atnt.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979599/1">Cinnamon Roll</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$3.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979593/1">Low Fat Blueberry Bran Muffin</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/979556/1">Mocha Chocolate Chip Muffin</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="AEGG" src="./Rendezvous Menu_files/aegg.png">
-		<img class="webcode" alt="AWHT" src="./Rendezvous Menu_files/awht.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$2.50</span>
-</div>
-                        </div>
-                    </div>
-
-                    <div class="menu-block">
-                    <h3>Sides</h3>
-                        <div class="style-side">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/161012/3">Tator Tots</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.50</span>
-	<span class="menu-item-description">Crispy bite-sized potatoes, fried until golden-brown. <br>
-</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/970032/1">Banana</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.25</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/970010/1">Gala Apple</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/973322/1">Orange</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.25</span>
-</div>
-                        </div>
-                    </div>
-
-                    <div class="menu-block">
-                    <h3>Drinks</h3>
-                        <div class="style-side">
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233017/1">Apple Juice</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233005/1">Chocolate Milk</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$1.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233013/1">Fat-Free Milk</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$1.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233012/1">Low-Fat Milk</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-	</span>
-	<span class="menu-item-price">$1.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233006/1">Orange Juice</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.00</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/233015/1">Vanilla Soy Milk</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$1.50</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/235061/12">Coffee</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/235059/3%7C8">Decaffeinated Coffee</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$1.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/234051/12">Hot Chocolate</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$2.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/234052/12">Hot Vanilla</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="V" src="./Rendezvous Menu_files/v.png">
-		<img class="webcode" alt="AMLK" src="./Rendezvous Menu_files/amlk.png">
-		<img class="webcode" alt="ASOY" src="./Rendezvous Menu_files/asoy.png">
-	</span>
-	<span class="menu-item-price">$2.75</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/234048/12">Hot Green Tea</a>
-	</span>
-	<span class="menu-item-webcodes">
-		<img class="webcode" alt="VG" src="./Rendezvous Menu_files/vg.png">
-	</span>
-	<span class="menu-item-price">$2.25</span>
-</div>
-
-<div class="menu-item">
-	<span class="menu-item-name">
-		<a class="recipelink" href="http://menu.dining.ucla.edu/Recipes/232000/24">Fountain Beverage</a>
-	</span>
-	<span class="menu-item-price">$1.75</span>
-</div>
-                        </div>
-                    </div>
-                    
-                </div></div>
+                                </div>
+                            </div>
+            </div></div>
 </div>
 
 <hr class="bar">
@@ -5552,9 +6022,14 @@
     </div>
     <div class="fp-disclaimer">
         <p>
-            <span class="fp-disclaimer-change">Menus are subject to change based on operational needs.</span><br>
             Powered by FoodPro®
         </p>
+    </div>
+    <hr class="clearall">
+    <hr class="bar">
+    <div class="footer-disclaimer">
+        <p><strong>Please Note:</strong> In accordance with On-Campus Housing regulations, UCLA housing is provided exclusively for residents and their authorized guests. Resident hosts are expected to be present with their guests at all times, including while dining in the restaurants. Allowing a person entrance into a building and leaving them unattended is prohibited. Residents are fully responsible for the conduct of their guests and for informing them of University rules and On-Campus Housing regulations. Thank you for your cooperation.</p>
+        <p>Menus are subject to change based on operational needs.</p>
     </div>
 </div>
                     

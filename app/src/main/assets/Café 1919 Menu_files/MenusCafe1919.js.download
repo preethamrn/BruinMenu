@@ -1,10 +1,22 @@
 ﻿$(document).ready(function () {
 
+    var slide = 0;
+
+    var d = new Date();
+
+    if (d.getHours() >= 21) {
+        slide = 8;
+    } else if (d.getHours() == 15) {
+        slide = 7;
+    }
+
+
     //initialize swiper 
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
         direction: 'horizontal',
         loop: true,
+        initialSlide: slide,
         autoHeight: true,
         nextButton: '#nav-right',
         prevButton: '#nav-left',
